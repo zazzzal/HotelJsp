@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <!-- Установите scratchdir на путь к вашей директории -->
+    <JarScanner scanClassPath="false"/>
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <Resources
+            cachingAllowed="false"
+            cacheMaxSize="100000"
+            cacheTtl="10000"
+            cacheObjectMaxSize="1000"/>
+    <Parameter name="scratchdir" value="C:\Users\vladz\Desktop\WEB-JAVA\Hotel\src\main\webapp\" override="true"/>
+
+</Context>
